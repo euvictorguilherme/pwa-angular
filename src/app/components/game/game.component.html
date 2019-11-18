@@ -1,0 +1,17 @@
+<div class="geral">
+ <div class="timer">
+  <p>{{timeLeft}} Segundos</p>
+</div>
+<div class="champion">
+  <p>
+  {{champion}}
+</p>
+</div>
+<div class="botoes">
+  <button class="rodar" [disabled] = "!tempo" (click)="rodar()"><i class="fas fa-redo-alt"></i></button>
+  <button class="iniciar" [disabled] = "tempo" (click)="startTimer()"><i class="fas fa-play"></i></button>
+</div> 
+</div>
+
+
+

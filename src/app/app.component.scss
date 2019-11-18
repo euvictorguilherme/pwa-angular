@@ -1,0 +1,42 @@
+.installBox {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  background-color: #151f1d;
+  color: #f9dd6e;
+  border: 3px solid #594215;
+}
+
+.label {
+  font-size: 30px;
+  font-family: 'Poppins';
+  margin: 10px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.sim {
+  border-radius: 100%;
+  border: 3px solid #594215;
+  color: #594215;
+  background-color: #192422;
+  float: left;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.nao {
+  border-radius: 100%;
+  border: 3px solid #594215;
+  color: #594215;
+  background-color: #192422;
+  float: right;
+  font-size: 20px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

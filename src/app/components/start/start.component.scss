@@ -1,0 +1,45 @@
+.splash {
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../../assets/splash2.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+}
+
+.image-splash {
+  width: 80vw;
+}
+
+.div-button {
+  margin-top: 90vh;
+}
+
+.start-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  outline: none;
+
+}
+
+.start-button:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    outline: none;
+  
+  }
+
+.div-image-spash {
+  margin-top: 25%;
+}

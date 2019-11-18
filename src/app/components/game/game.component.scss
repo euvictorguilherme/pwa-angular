@@ -1,0 +1,53 @@
+.geral {
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../../assets/backgound-game.jpeg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.rodar {
+  font-size: 20px;
+  margin-left: 16%;
+  margin-right: 8%;
+  border-radius: 100%;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.iniciar {
+  font-size: 20px;
+  margin-left: 8%;
+  margin-right: 16%;
+  border-radius: 100%;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.botoes {
+  margin-top: 80%;
+}
+
+.timer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.champion {
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 20%;
+  color: black;
+}

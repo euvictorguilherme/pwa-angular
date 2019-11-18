@@ -1,0 +1,10 @@
+<router-outlet></router-outlet>
+<div class="installBox" *ngIf="install">
+  <div class="label">
+    <label>Deseja instalar?</label>
+  </div>
+  <div class="buttons" >
+    <button class="sim" (click)="installPwa()"><i class="fas fa-check"></i></button>
+    <button class="nao" (click)="ocultar()" *ngIf="install"><i class="fas fa-times"></i></button>
+  </div>
+</div>
